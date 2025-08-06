@@ -1,7 +1,12 @@
-ul[onclick='_M(this)'] > li {color:#008;font-weight:bold;margin-top:12pt;}
+/*ul[onclick='_M(this)'] > li {color:#008;font-weight:bold;margin-top:12pt;}
 ul[onclick='_M(this)']>li *:not(pre,b,code,span,div,strong,td,th) {color:black;font-weight:normal;}
+*/
 details li {color:#008;font-weight:bold;}
+details li.slidetitle {display:block; background-color:#eee; font-size:130%; }
+details li.slidetitle ul { background-color:white; font-size:77%;}
+details li.slidetitle ol { background-color:white; font-size:77%;}
 details li li {color:black;font-weight:normal;}
+details li ol {color:black;font-weight:normal;}
 em {color:#00c;font-weight:bold;}
 strong {font-weight:bold;}
 /* #htmlContent ul li {color:blue;} */
