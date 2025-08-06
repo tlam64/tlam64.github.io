@@ -6,7 +6,7 @@ if (typeof UMMd !== 'undefined') {
 if (window.location.href.slice(0,4)=="file")
     gitUrl = "..";
 else
-    gitUrl = 'https://tlam64/tlam64.github.io/moodle'
+    gitUrl = 'https://tlam64.github.io/moodle'
 
 UMMd = {
     course: '',
