@@ -76,15 +76,25 @@ table.fixwidth td, table.fixwidth th { width:100%; }
 .vw20 {max-width:20vw;}
 .vw25 {max-width:25vw;}
 .p10 {max-width:10%;}
+.slidetitle .p10 {width:10%;}
 .p15 {max-width:15%;}
+.slidetitle .p15 {width:15%;}
 .p20 {max-width:20%;}
+.slidetitle .p20 {width:20%;}
 .p25 {max-width:25%;}
+.slidetitle .p25 {width:25%;}
 .p33 {max-width:33%;}
+.slidetitle .p33 {width:33%;}
 .p50 {max-width:50%;}
+.slidetitle .p50 {width:50%;}
 .p70 {max-width:70%;}
+.slidetitle .p70 {max-width:70%;}
 .p75 {max-width:75%;display: block; text-align:center;}
+.slidetitle .p75 {width:75%; display:block; teøt-align:center;}
 .p80 {max-width:80%;}
+.slidetitle .p80 {width:75%; display:block; teøt-align:center;}
 .p90 {max-width:90%;display: block; text-align:center;}
+.slidetitle .p90 {width:90%;display: block; text-align:center;}
 
 h1 {font-size:180%;font-weight:bolder;color:red;}
 h3 {font-size:150%;font-weight:bold;padding:2pt;}
