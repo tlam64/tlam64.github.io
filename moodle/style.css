@@ -136,6 +136,7 @@ code .armlabel {color:#0c0;}
 .CAP::before { content: "^"; }
 .VB::before { content: "|"; }
 .VB2::before { content: "||"; }
+pre[class^="language-"]>code { line-height: 1.3em !important; background-size: 2.6em 2.6em !important; }
 pre.language-output>code { border-left: 10px solid red !important; }
 pre.language-python>code { border-left: 10px solid #0c0 !important; }
 pre.language-shell>code { border-left: 10px solid #c0c !important; }
