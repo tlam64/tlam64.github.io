@@ -3,8 +3,9 @@ ul[onclick='_M(this)']>li *:not(pre,b,code,span,div,strong,td,th) {color:black;f
 */
 details li {color:#008;font-weight:bold;}
 details li.slidetitle {display:block; background-color:#eee; font-size:130%; }
-details li.slidetitle ul { background-color:white; font-size:77%;}
-details li.slidetitle ol { background-color:white; font-size:77%;}
+details li.slidetitle ul { background-color:white; font-size:90%;}
+details li.slidetitle ul ul ul li::marker { color: #44c;}
+details li.slidetitle ol { background-color:white; font-size:90%;}
 details li li {color:black;font-weight:normal;}
 details li ol {color:black;font-weight:normal;}
 em {color:#00c;font-weight:bold;}
