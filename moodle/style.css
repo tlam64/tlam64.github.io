@@ -141,8 +141,7 @@ code .armlabel {color:#0c0;}
 pre[class^="language-"]>code { line-height: 1.3em !important; background-size: 2.6em 2.6em !important; }
 pre.language-output>code { border-left: 10px solid red !important; }
 pre.language-python>code { border-left: 10px solid #0c0 !important; }
-pre.language-shell>code { border-left: 10px solid #c0c !important; }
-pre.language-cmd>code { border-left: 10px solid #808 !important; }
+pre.language-shell>code, pre.language-cmd>code,  pre.language-bash>code { border-left: 10px solid #c0c !important; }
 pre.language-json>code, pre.language-text>code, pre.language-other>code { border-left: 10px solid #aaa !important; }
 /* For printing */ 
 @media print {
