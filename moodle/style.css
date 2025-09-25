@@ -55,6 +55,19 @@ table.figure { border:thin silver solid; min-width:200px; float:right; }
 
 .highLight {background-color: rgba(255,255,0,0.5);}
 .highLight .highLight {background-color: rgba(255,200,0,0.5);}
+<style>
+.hstripe {
+  display: inline-block; background: repeating-linear-gradient(
+  to bottom, rgba(0,0,255,0.3),rgba(0,0,255,0.3) 4px, transparent 1px, transparent 8px);
+}
+.stripe45 {
+  display: inline-block; background: repeating-linear-gradient(
+  45deg, rgba(255,0,0,0.3), rgba(255,0,0,0.3) 4px, transparent 1px, transparent 8px);
+}
+.vstripe {
+  display: inline-block; background: repeating-linear-gradient(
+  to right, rgba(0, 255, 0, 0.3), rgba(0, 255,0, 0.3) 4px, transparent 1px, transparent 8px);
+}
 .framed { border:1px solid black; padding:2px; }
 table.hoframed, .hoframed tr, .hoframed td, .hoframed th { border:none; border-collapse: collapse; text-align:center; }
 table.hoframed:hover, .hoframed:hover tr, .hoframed:hover td, th { border:1px solid black; }
@@ -141,6 +154,7 @@ code .armlabel {color:#0c0;}
 .CAP::before { content: "^"; }
 .VB::before { content: "|"; }
 .VB2::before { content: "||"; }
+.CB::before { content: "{"; }
 pre[class^="language-"]>code { line-height: 1.3em !important; background-size: 2.6em 2.6em !important; }
 pre.language-output>code { border-left: 10px solid red !important; }
 pre.language-python>code { border-left: 10px solid #0c0 !important; }
