@@ -155,7 +155,7 @@ code .armlabel {color:#0c0;}
 .VB::before { content: "|"; }
 .VB2::before { content: "||"; }
 .CB::before { content: "{"; }
-.CB::after { content: "\n"; }
+.CB::after { content: "\A"; } /* Line break character */
 pre[class^="language-"]>code { line-height: 1.3em !important; background-size: 2.6em 2.6em !important; }
 pre.language-output>code { border-left: 10px solid red !important; }
 pre.language-python>code { border-left: 10px solid #0c0 !important; }
