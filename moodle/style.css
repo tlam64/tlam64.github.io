@@ -147,7 +147,7 @@ code .armlabel {color:#0c0;}
 .nofloat { float:none; }
 /*.code { padding: .2em; border-radius: .3em; color: #c92c2c; background-color: #fdfdfd; border: 1px solid rgba(0, 0, 0, .1); }*/
 .code { padding: 0pt 0.2em; border-radius: .3em; color: #c92c2c; background-color: #fdfdfd; border: 1px solid rgba(0, 0, 0, .1); }
-.CODE { display:block; padding: 5px; color:black; white-space: pre; border: 1px solid #ccc; background-color: #f8f8f8; border-radius: 3px; }
+.CODE { display:block; font-family: monospace; padding: 0.5em; color:black; white-space: pre; border: 1px solid #ccc; background-color: #f8f8f8; border-radius: 10px; }
 .pbp ul { list-style-type:none; }
 .hide_show_frame { border:thin black solid; padding:0 0.5em}
 .hide_show {opacity: 0; color: #800}
