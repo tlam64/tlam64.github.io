@@ -57,15 +57,15 @@ table.figure { border:thin silver solid; min-width:200px; float:right; }
 .highLight .highLight {background-color: rgba(255,200,0,0.5);}
 .hstripe {
   display: inline-block; background: repeating-linear-gradient(
-  to bottom, rgba(0,0,255,0.3),rgba(0,0,255,0.3) 4px, transparent 1px, transparent 8px);
+  to bottom, rgba(0,0,255,0.2),rgba(0,0,255,0.2) 4px, transparent 1px, transparent 8px);
 }
 .stripe45 {
   display: inline-block; background: repeating-linear-gradient(
-  45deg, rgba(255,0,0,0.3), rgba(255,0,0,0.3) 4px, transparent 1px, transparent 8px);
+  45deg, rgba(255,0,0,0.2), rgba(255,0,0,0.2) 4px, transparent 1px, transparent 8px);
 }
 .vstripe {
   display: inline-block; background: repeating-linear-gradient(
-  to right, rgba(0, 255, 0, 0.3), rgba(0, 255,0, 0.3) 4px, transparent 1px, transparent 8px);
+  to right, rgba(0, 255, 0, 0.2), rgba(0, 255,0, 0.2) 4px, transparent 1px, transparent 8px);
 }
 .framed { border:1px solid black; padding:2px; }
 table.hoframed, .hoframed tr, .hoframed td, .hoframed th { border:none; border-collapse: collapse; text-align:center; }
@@ -131,7 +131,7 @@ code .armlabel {color:#0c0;}
 .pipeline td:nth-child(n+2) { width:2.5em; text-align: center; }
 .pipeline td:nth-child(1) {text-align: left;}
 .hoframed .F, .hoframed .M, .hoframed .L, .hoframed .R, .hoframed .B { border:none; text-align:center;}
-.F, .hoframed:hover .F { border:1px black solid; }
+.F, .hoframed:hover .F { border:1px black s/stolid; }
 .M, .hoframed:hover .M { border-top:1px black solid; border-bottom:1px black solid; }
 .L, .hoframed:hover .L { border-left: 1px black solid; }
 .R, .hoframed:hover .R { border-right: 1px black solid; }
@@ -147,7 +147,7 @@ code .armlabel {color:#0c0;}
 .nofloat { float:none; }
 /*.code { padding: .2em; border-radius: .3em; color: #c92c2c; background-color: #fdfdfd; border: 1px solid rgba(0, 0, 0, .1); }*/
 .code { padding: 0pt 0.2em; border-radius: .3em; color: #c92c2c; background-color: #fdfdfd; border: 1px solid rgba(0, 0, 0, .1); }
-.CODE { display:block; padding 5px; color:black; white-space: pre; border: 1px solid #ccc; background-color: #f8f8f8; border-radius: 3px; }
+.CODE { display:block; padding: 5px; color:black; white-space: pre; border: 1px solid #ccc; background-color: #f8f8f8; border-radius: 3px; }
 .pbp ul { list-style-type:none; }
 .hide_show_frame { border:thin black solid; padding:0 0.5em}
 .hide_show {opacity: 0; color: #800}
