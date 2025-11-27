@@ -72,6 +72,7 @@ table.hoframed, .hoframed tr, .hoframed td, .hoframed th { border:none; border-c
 table.hoframed:hover, .hoframed:hover tr, .hoframed:hover td, th { border:1px solid black; }
 table, tr, th, td {font-size:100%;}
 table th {font-weight:bold}
+table.noframed, .noframed tr, .noframed td, .noframed th { border:none; border-collapse: collapse; } 
 table.framed, .framed tr, .framed td, .framed th { border-collapse: collapse; border:1px solid black; } 
 table.fixwidth { table-layout: fixed; width:95%; }
 table.fixwidth td, table.fixwidth th { width:100%; }
