@@ -132,11 +132,12 @@ code .armlabel {color:#0c0;}
 .pipeline td:nth-child(n+2) { width:2.5em; text-align: center; }
 .pipeline td:nth-child(1) {text-align: left;}
 .hoframed .F, .hoframed .M, .hoframed .L, .hoframed .R, .hoframed .B { border:none; text-align:center;}
-.F, .hoframed:hover .F { border:1px black s/stolid; }
-.M, .hoframed:hover .M { border-top:1px black solid; border-bottom:1px black solid; }
-.L, .hoframed:hover .L { border-left: 1px black solid; }
-.R, .hoframed:hover .R { border-right: 1px black solid; }
-.B, .hoframed:hover .B { border-bottom: 1px black solid; }
+.empty { }
+.F, .hoframed:hover .F { border:1px black solid !important; }
+.M, .hoframed:hover .M { border-top:1px black solid !important; border-bottom:1px black solid !important; }
+.L, .hoframed:hover .L { border-left: 1px black solid !important; }
+.R, .hoframed:hover .R { border-right: 1px black solid !important; }
+.B, .hoframed:hover .B { border-bottom: 1px black solid !important; }
 .br { background-color:#c44; }
 .bg { background-color:#4c4; }
 .bb { background-color: #44c; } 
