@@ -113,6 +113,7 @@ table.fixwidth td, table.fixwidth th { width:100%; }
 .slidetitle .p80 {width:75%; display:block; teøt-align:center;}
 .p90 {max-width:90%;display: block; text-align:center;}
 .slidetitle .p90 {width:90%;display: block; text-align:center;}
+.ontop {position: relative; z-index: 1000; }
 
 h1 {font-size:180%;font-weight:bolder;color:red;}
 h3 {font-size:150%;font-weight:bold;padding:2pt;}
