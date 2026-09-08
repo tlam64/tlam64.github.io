@@ -158,7 +158,9 @@ code .armlabel {color:#0c0;}
 .CAP::before { content: "^"; }
 .VB::before { content: "|"; }
 .VB2::before { content: "||"; }
+.CBL::before { content: "{"; }
 .CB::before { content: "{"; }
+.CB::after { content: "}"; }
 .SP::before { content: " "; }
 /* .CB::after { content: "\A    "; }*/ /* Line break character */
 pre[class^="language-"]>code { line-height: 1.3em !important; background-size: 2.6em 2.6em !important; }
